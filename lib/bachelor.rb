@@ -57,3 +57,4 @@ def get_average_age_for_season(data, season)
   end
   return ages.sum.fdiv(arr.size)
 end
+end
