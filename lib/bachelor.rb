@@ -53,8 +53,7 @@ def get_average_age_for_season(data, season)
       binding.pry
       if seasons == season
         ages << person["age"]
+      end
     end
   end
-  return ages.sum.fdiv(arr.size)
-end
 end
