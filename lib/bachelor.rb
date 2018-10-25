@@ -29,6 +29,7 @@ def count_contestants_by_hometown(data, hometown)
       if person["hometown"] == hometown
         new << person["name"]
         return new.size
+      end
     end
   end
 end
