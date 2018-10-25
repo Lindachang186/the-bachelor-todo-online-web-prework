@@ -50,9 +50,8 @@ def get_average_age_for_season(data, season)
   ages = []
   data.each do |seasons, contestants|
     contestants.each do |person, values|
-      binding.pry
         occupations << person["age"]
     end
   end
-  return ages
+  return ages.sum.fdiv(arr.size)
 end
