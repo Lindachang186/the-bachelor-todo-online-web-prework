@@ -52,7 +52,6 @@ def get_average_age_for_season(data, season)
     contestants.each do |person, values|
       binding.pry
         occupations << person["age"]
-      end
     end
   end
   return ages
