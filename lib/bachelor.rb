@@ -2,8 +2,12 @@ require "pry"
 
 def get_first_name_of_season_winner(data, season)
   data.each do |seasons, contestants|
+    if seasons == "season 1"
+      contestants.each do |person, info|
     binding.pry
   # code here
+      end
+    end 
   end
 end
 
