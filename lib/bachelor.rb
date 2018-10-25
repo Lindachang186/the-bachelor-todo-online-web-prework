@@ -7,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
     binding.pry
   # code here
       end
-    end 
+    end
   end
 end
 
